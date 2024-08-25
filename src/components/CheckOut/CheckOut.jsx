@@ -23,7 +23,7 @@ export default function CheckOut() {
     try {
       setLoading(true);
       let { data } = await axios.post(
-        `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${id}?url=https://fresh-cart-test-five.vercel.app/`,
+        `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${id}?url=https://e-commerce-git-main-muhamedmahmuds-projects.vercel.app/`,
         {
           shippingAddress,
         },
