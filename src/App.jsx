@@ -9,7 +9,7 @@ import Brands from "./components/Brands/Brands";
 import Login from "./components/Login/Login";
 import Regestier from "./components/Regestier/Regestier";
 import Notfound from "./components/Notfound/Notfound";
-import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css"; 
 import NameContextProvider from "./components/context/NameContext";
 import ProtectedComponent from "./components/ProtectedComponent/ProtectedComponent";
 import ProtectedUser from "./components/ProtectedUser/ProtectedUser";
@@ -35,6 +35,7 @@ function App() {
           element: (
             <ProtectedComponent>
               <Home />
+              <p>mot</p>
             </ProtectedComponent>
           ),
         },
